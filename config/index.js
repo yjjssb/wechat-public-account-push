@@ -14,11 +14,7 @@ const USER_CONFIG = {
   // 如果你非要填这里也行。脚本也能运行
   APP_SECRET: 'bfa1157a6099d02ddaf5618d2a597010',
 
-  // 是否给文字设置多彩颜色, 和emoji不兼容
-  // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: true,
-
-  // 功能开关,打开：true，关闭：false
+   // 功能开关,打开：true，关闭：false
   SWITCH: {
     /** 每日天气 */
     weather: true,
