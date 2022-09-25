@@ -14,46 +14,7 @@ const USER_CONFIG = {
   // 如果你非要填这里也行。脚本也能运行
   APP_SECRET: 'bfa1157a6099d02ddaf5618d2a597010',
 
-   // 功能开关,打开：true，关闭：false
-  SWITCH: {
-    /** 每日天气 */
-    weather: true,
-
-    /** 节假日 */
-    // 下一休息日综合提醒
-    holidaytts: true,
-
-    /** 每日N句 */
-    // 金山每日一句
-    CIBA: true,
-    // 每日一言
-    oneTalk: false,
-    // 土味情话(彩虹屁)
-    earthyLoveWords: false,
-    // 朋友圈文案
-    momentCopyrighting: false,
-    // 毒鸡汤
-    poisonChickenSoup: false,
-    // 古诗古文
-    poetry: false,
-
-    /** 星座运势 */
-    horoscope: false,
-
-    /** 生日消息和节日消息 */
-    birthdayMessage: true,
-
-    // 学生课表
-    courseSchedule: false,
-  },
-
-  /** 每日一言 */
-
-  // 每日一言的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: '',
-
-  /**
+   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
   USERS: [oTYba6UxceEVh6l5RtZHtfPuQ2_0]
